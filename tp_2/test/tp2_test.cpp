@@ -216,7 +216,7 @@ TEST_CASE ( "TP2_Nuage::BarycentreCartesienVecteur" ) {
 }
 
 //------------------------------------------------------------------------------------------------ 7
-/*TEST_CASE ( "TP2_Nuage::BarycentrePolaire_V2" ) {
+TEST_CASE ( "TP2_Nuage::BarycentrePolaire_V2" ) {
  std::vector<Polaire> n;
 
  Polaire p1(12,34);
@@ -244,6 +244,6 @@ TEST_CASE ( "TP2_Nuage::BarycentreCartesienVecteur" ) {
 
  REQUIRE ( b3.getAngle() == Approx(43.017260).epsilon(1e-3) );
  REQUIRE ( b3.getDistance() == Approx(42.159772).epsilon(1e-3) );
-}*/
+}
 
 // Fin //-------------------------------------------------------------------------------------------

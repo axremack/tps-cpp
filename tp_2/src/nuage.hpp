@@ -86,23 +86,24 @@ Polaire barycentre_v1(Nuage<Polaire> n) {
     return Polaire(moyAngle, moyDist);
 }
 
-template <typename TYPE_POINT, template <typename> class CONTAINER>
-TYPE_POINT barycentre_v2(CONTAINER<TYPE_POINT> & n) {
-   double moyX = 0, moyY = 0;
+
+template <typename CONTAINER>
+Cartesien barycentre_v2(const CONTAINER & container) {
+    double moyX = 0, moyY = 0;
     
     Cartesien tmp;
     float sumX = 0;
     float sumY = 0;
-    for(auto it = n.begin(); it < n.end(); it++) {
+    for(auto it = container.begin(); it < container.end(); it++) {
         (*it).convertir(tmp); // On prend le contenu de l'itérateur qui est un Point * puis on lui applique sa méthode "convertir"
         sumX += tmp.getX();
         sumY += tmp.getY();
     }
 
-    moyX = sumX / n.size();
-    moyY = sumY / n.size();
+    moyX = sumX / container.size();
+    moyY = sumY / container.size();
 
-    return (n.size() == 0 ? TYPE_POINT() : TYPE_POINT(Cartesien(moyX, moyY)));
+    return (container.size() == 0 ? Cartesien() : Cartesien(moyX, moyY));
 }
 
 
