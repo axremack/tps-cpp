@@ -1,0 +1,4 @@
+/mnt/c/Users/axrem/Documents/ZZ3/C++/tp_2/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/axrem/Documents/ZZ3/C++/tp_2/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/axrem/Documents/ZZ3/C++/tp_2/build/CMakeFiles/tp2_test.dir
+/mnt/c/Users/axrem/Documents/ZZ3/C++/tp_2/build/CMakeFiles/tp2_nuage.dir
