@@ -9,7 +9,11 @@
 ../src/chaine.hpp
 exception.hpp
 ../src/exception.hpp
+demangle.hpp
+../src/demangle.hpp
 string
+-
+sstream
 -
 
 ../src/demangle.hpp
@@ -21,18 +25,6 @@ cxxabi.h
 -
 
 ../src/exception.hpp
-exception
--
-string
--
-
-/mnt/c/Users/axrem/Documents/ZZ3/C++/tp_3/src/exception.cpp
-exception.hpp
-/mnt/c/Users/axrem/Documents/ZZ3/C++/tp_3/src/exception.hpp
-iostream
--
-
-/mnt/c/Users/axrem/Documents/ZZ3/C++/tp_3/src/exception.hpp
 exception
 -
 string
