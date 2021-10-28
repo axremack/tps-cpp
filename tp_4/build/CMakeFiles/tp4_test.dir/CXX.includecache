@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/carte.hpp
+memory
+-
+
+/mnt/c/Users/axrem/Documents/ZZ3/C++/tp_4/src/carte.cpp
+carte.hpp
+-
+
