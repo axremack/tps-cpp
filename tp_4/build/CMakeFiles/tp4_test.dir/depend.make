@@ -12,6 +12,7 @@ CMakeFiles/tp4_test.dir/test/catch.cpp.o: ../test/catch.cpp
 CMakeFiles/tp4_test.dir/test/catch.cpp.o: ../test/catch.hpp
 
 CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../src/carte.hpp
+CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../src/paquet.hpp
 CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../src/usineCarte.hpp
 CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../test/catch.hpp
 CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../test/tp4_test.cpp

@@ -7,11 +7,15 @@
 #IncludeRegexTransform: 
 
 ../src/carte.hpp
+memory
+-
 
 ../src/usineCarte.hpp
 carte.hpp
 -
 memory
+-
+vector
 -
 
 /mnt/c/Users/axrem/Documents/ZZ3/C++/tp_4/src/carte.cpp
@@ -19,10 +23,8 @@ carte.hpp
 -
 
 /mnt/c/Users/axrem/Documents/ZZ3/C++/tp_4/src/usineCarte.cpp
+iostream
+-
 usineCarte.hpp
--
-carte.hpp
--
-memory
 -
 
