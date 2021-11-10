@@ -10,11 +10,23 @@
 memory
 -
 
+../src/consommateur.cpp
+consommateur.hpp
+../src/consommateur.hpp
+
+../src/consommateur.hpp
+vector
+-
+ressource.hpp
+../src/ressource.hpp
+
 ../src/paquet.hpp
 memory
 -
 usineCarte.hpp
 ../src/usineCarte.hpp
+
+../src/ressource.hpp
 
 ../src/usineCarte.hpp
 carte.hpp
@@ -22,16 +34,6 @@ carte.hpp
 memory
 -
 vector
--
-
-/mnt/c/Users/axrem/Documents/ZZ3/C++/tp_4/src/carte.cpp
-carte.hpp
--
-
-/mnt/c/Users/axrem/Documents/ZZ3/C++/tp_4/src/usineCarte.cpp
-iostream
--
-usineCarte.hpp
 -
 
 /mnt/c/Users/axrem/Documents/ZZ3/C++/tp_4/test/catch.hpp
@@ -476,5 +478,7 @@ carte.hpp
 usineCarte.hpp
 -
 paquet.hpp
+-
+consommateur.cpp
 -
 

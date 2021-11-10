@@ -182,6 +182,39 @@ src/carte.cpp.s:
 	$(MAKE) -f CMakeFiles/tp4_mouchard.dir/build.make CMakeFiles/tp4_mouchard.dir/src/carte.cpp.s
 .PHONY : src/carte.cpp.s
 
+src/ressource.o: src/ressource.cpp.o
+
+.PHONY : src/ressource.o
+
+# target to build an object file
+src/ressource.cpp.o:
+	$(MAKE) -f CMakeFiles/tp4_test.dir/build.make CMakeFiles/tp4_test.dir/src/ressource.cpp.o
+	$(MAKE) -f CMakeFiles/tp4_vecteur.dir/build.make CMakeFiles/tp4_vecteur.dir/src/ressource.cpp.o
+	$(MAKE) -f CMakeFiles/tp4_mouchard.dir/build.make CMakeFiles/tp4_mouchard.dir/src/ressource.cpp.o
+.PHONY : src/ressource.cpp.o
+
+src/ressource.i: src/ressource.cpp.i
+
+.PHONY : src/ressource.i
+
+# target to preprocess a source file
+src/ressource.cpp.i:
+	$(MAKE) -f CMakeFiles/tp4_test.dir/build.make CMakeFiles/tp4_test.dir/src/ressource.cpp.i
+	$(MAKE) -f CMakeFiles/tp4_vecteur.dir/build.make CMakeFiles/tp4_vecteur.dir/src/ressource.cpp.i
+	$(MAKE) -f CMakeFiles/tp4_mouchard.dir/build.make CMakeFiles/tp4_mouchard.dir/src/ressource.cpp.i
+.PHONY : src/ressource.cpp.i
+
+src/ressource.s: src/ressource.cpp.s
+
+.PHONY : src/ressource.s
+
+# target to generate assembly for a file
+src/ressource.cpp.s:
+	$(MAKE) -f CMakeFiles/tp4_test.dir/build.make CMakeFiles/tp4_test.dir/src/ressource.cpp.s
+	$(MAKE) -f CMakeFiles/tp4_vecteur.dir/build.make CMakeFiles/tp4_vecteur.dir/src/ressource.cpp.s
+	$(MAKE) -f CMakeFiles/tp4_mouchard.dir/build.make CMakeFiles/tp4_mouchard.dir/src/ressource.cpp.s
+.PHONY : src/ressource.cpp.s
+
 src/usineCarte.o: src/usineCarte.cpp.o
 
 .PHONY : src/usineCarte.o
@@ -337,6 +370,9 @@ help:
 	@echo "... src/carte.o"
 	@echo "... src/carte.i"
 	@echo "... src/carte.s"
+	@echo "... src/ressource.o"
+	@echo "... src/ressource.i"
+	@echo "... src/ressource.s"
 	@echo "... src/usineCarte.o"
 	@echo "... src/usineCarte.i"
 	@echo "... src/usineCarte.s"

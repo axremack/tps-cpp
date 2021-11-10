@@ -4,6 +4,9 @@
 CMakeFiles/tp4_test.dir/src/carte.cpp.o: ../src/carte.hpp
 CMakeFiles/tp4_test.dir/src/carte.cpp.o: ../src/carte.cpp
 
+CMakeFiles/tp4_test.dir/src/ressource.cpp.o: ../src/ressource.cpp
+CMakeFiles/tp4_test.dir/src/ressource.cpp.o: ../src/ressource.hpp
+
 CMakeFiles/tp4_test.dir/src/usineCarte.cpp.o: ../src/carte.hpp
 CMakeFiles/tp4_test.dir/src/usineCarte.cpp.o: ../src/usineCarte.hpp
 CMakeFiles/tp4_test.dir/src/usineCarte.cpp.o: ../src/usineCarte.cpp
@@ -12,7 +15,10 @@ CMakeFiles/tp4_test.dir/test/catch.cpp.o: ../test/catch.cpp
 CMakeFiles/tp4_test.dir/test/catch.cpp.o: ../test/catch.hpp
 
 CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../src/carte.hpp
+CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../src/consommateur.cpp
+CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../src/consommateur.hpp
 CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../src/paquet.hpp
+CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../src/ressource.hpp
 CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../src/usineCarte.hpp
 CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../test/catch.hpp
 CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o: ../test/tp4_test.cpp

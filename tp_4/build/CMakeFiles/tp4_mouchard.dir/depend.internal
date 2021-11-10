@@ -4,6 +4,9 @@
 CMakeFiles/tp4_mouchard.dir/src/carte.cpp.o
  ../src/carte.hpp
  /mnt/c/Users/axrem/Documents/ZZ3/C++/tp_4/src/carte.cpp
+CMakeFiles/tp4_mouchard.dir/src/ressource.cpp.o
+ /mnt/c/Users/axrem/Documents/ZZ3/C++/tp_4/src/ressource.cpp
+ /mnt/c/Users/axrem/Documents/ZZ3/C++/tp_4/src/ressource.hpp
 CMakeFiles/tp4_mouchard.dir/src/usineCarte.cpp.o
  ../src/carte.hpp
  ../src/usineCarte.hpp

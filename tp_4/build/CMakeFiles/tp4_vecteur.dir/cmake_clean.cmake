@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tp4_vecteur.dir/src/carte.cpp.o"
+  "CMakeFiles/tp4_vecteur.dir/src/ressource.cpp.o"
   "CMakeFiles/tp4_vecteur.dir/src/usineCarte.cpp.o"
   "CMakeFiles/tp4_vecteur.dir/test/test_vecteur.cpp.o"
   "tp4_vecteur"

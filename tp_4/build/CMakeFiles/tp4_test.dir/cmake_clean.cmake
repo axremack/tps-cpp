@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tp4_test.dir/src/carte.cpp.o"
+  "CMakeFiles/tp4_test.dir/src/ressource.cpp.o"
   "CMakeFiles/tp4_test.dir/src/usineCarte.cpp.o"
   "CMakeFiles/tp4_test.dir/test/catch.cpp.o"
   "CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o"

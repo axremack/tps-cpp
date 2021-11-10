@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tp4_mouchard.dir/src/carte.cpp.o"
+  "CMakeFiles/tp4_mouchard.dir/src/ressource.cpp.o"
   "CMakeFiles/tp4_mouchard.dir/src/usineCarte.cpp.o"
   "CMakeFiles/tp4_mouchard.dir/test/test_mouchard.cpp.o"
   "tp4_mouchard"
