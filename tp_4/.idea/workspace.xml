@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3009ca23-c31b-48cc-b5e2-a672cfb50bd3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_zz3--04--genericite.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_zz3--04--genericite.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_zz3--06--move.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp_2/build/CMakeFiles/tp2_test.dir/test/tp2_test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp_3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../tp_3/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp_3/build/CMakeFiles/tp3_test.dir/test/tp3_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../tp_3/build/CMakeFiles/tp3_test.dir/test/tp3_test.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp_3/build/tp3_test" beforeDir="false" afterPath="$PROJECT_DIR$/../tp_3/build/tp3_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp_3/test/tp3_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../tp_3/test/tp3_test.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20xqU8vYlMDK2gl7kjzwMnUCPQm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3009ca23-c31b-48cc-b5e2-a672cfb50bd3" name="Changes" comment="" />
+      <created>1636996608022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636996608022</updated>
+    </task>
+    <servers />
+  </component>
+</project>

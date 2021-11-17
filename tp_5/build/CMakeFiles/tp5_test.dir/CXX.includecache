@@ -35,6 +35,8 @@ vector
 -
 set
 -
+map
+-
 classe.hpp
 ../src/classe.hpp
 echantillon.hpp
@@ -45,6 +47,8 @@ valeur.hpp
 -
 
 ../src/valeur.hpp
+string
+-
 
 /mnt/c/Users/axrem/Documents/ZZ3/C++/tp_5/test/catch.hpp
 TargetConditionals.h

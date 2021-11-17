@@ -3,14 +3,14 @@
 
 #include <iostream>
 #include <demangle.hpp>
-//#include <chaine.hpp>
+#include <chaine.hpp>
 
 // Tests //-----------------------------------------------------------------------------------------
 
 template <typename T> std::string type_name(T && x) { return demangle(typeid(x).name()); }
 
 //------------------------------------------------------------------------------------------------ 1
-/*TEST_CASE ( "TP3_Chaine::Exception" ) {
+TEST_CASE ( "TP3_Chaine::Exception" ) {
  int erreur = 0;
 
  long i{};
@@ -41,10 +41,10 @@ template <typename T> std::string type_name(T && x) { return demangle(typeid(x).
  }
 
  REQUIRE ( erreur == 2 );
-}*/
+}
 
 //------------------------------------------------------------------------------------------------ 2
-/*TEST_CASE ( "TP3_Chaine::ConversionSimple" ) {
+TEST_CASE ( "TP3_Chaine::ConversionSimple" ) {
  std::string n = "Smith";
  int i = 10;
  double d = 13.27;
@@ -79,10 +79,10 @@ template <typename T> std::string type_name(T && x) { return demangle(typeid(x).
  }
 
  REQUIRE ( erreur == 4 );
-}*/
+}
 
 //------------------------------------------------------------------------------------------------ 3
-/*TEST_CASE ( "TP3_Chaine::ConversionVariadic" ) {
+TEST_CASE ( "TP3_Chaine::ConversionVariadic" ) {
  std::string n = "Smith";
  int i = 10;
  double d = 13.27;
@@ -107,10 +107,10 @@ template <typename T> std::string type_name(T && x) { return demangle(typeid(x).
  }
 
  REQUIRE ( erreur == 2 );
-}*/
+}
 
 //------------------------------------------------------------------------------------------------ 4
-/*TEST_CASE ( "TP3_Chaine::ConversionTuple1" ) {
+TEST_CASE ( "TP3_Chaine::ConversionTuple1" ) {
  std::tuple<std::string,int,double>      t1{"Smith",10,13.27};
  std::tuple<std::string,int,double,long> t2{"Smith",10,13.27,100};
 
@@ -133,14 +133,14 @@ template <typename T> std::string type_name(T && x) { return demangle(typeid(x).
  }
 
  REQUIRE ( erreur == 2 );
-}*/
+}
 
 //------------------------------------------------------------------------------------------------ 5
 using Identite = std::tuple<std::string,std::string>; // {nom,prenom}
 using Date = std::tuple<int,int,int>; // {jour,mois,annee}
 using Coordonnees = std::tuple<double,double>; // {x,y}
 
-/*TEST_CASE ( "TP3_Chaine::ConversionTuple2" ) {
+TEST_CASE ( "TP3_Chaine::ConversionTuple2" ) {
  Identite    i = { "Smith", "John" };
  Date        d = { 13, 07, 2003 };
  Coordonnees c = { 1.234, 6.789 };
@@ -155,7 +155,7 @@ using Coordonnees = std::tuple<double,double>; // {x,y}
  catch (const ExceptionChaine & e) { erreur=1; }
 
  REQUIRE ( erreur == 0 );
-}*/
+}
 
 //------------------------------------------------------------------------------------------------ 6
 using Personne = std::tuple<Identite,Date>;
