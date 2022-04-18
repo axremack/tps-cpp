@@ -39,8 +39,8 @@ class Vecteur {
   //------------------------------------------------------------------------------Constructeur mouvement
 
   Vecteur(Vecteur && v) : tableau_(v.tableau_), taille_(v.taille_) {
-  v.tableau_ = nullptr;
-  v.taille_ = 0;
+    v.tableau_ = nullptr;
+    v.taille_ = 0;
   }
 
 
